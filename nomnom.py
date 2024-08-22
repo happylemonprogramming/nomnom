@@ -40,7 +40,7 @@ def generate_image(recipe_name):
 
 # WEBPAGE
 import streamlit as st
-from micstream import *
+# from micstream import *
 
 st.set_page_config(
     page_title='NOM NOM!',
