@@ -1,1 +1,1 @@
-web: gunicorn -t 600 nomnom:app
+web: sh setup.sh && streamlit run Home.py --server.maxUploadSize 1000
